@@ -321,6 +321,9 @@ body {
 .services .design {
 	padding: 150px 100px;
 	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .services .design h3 {
 	font-size: 38px;

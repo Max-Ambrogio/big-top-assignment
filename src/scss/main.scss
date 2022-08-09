@@ -100,6 +100,7 @@ body {
 	}
 }
 
+
 .button{
 	background-color: white;
 	padding: 20px 20px;
@@ -183,6 +184,9 @@ body {
 	.design{
 		padding: 150px 100px;
 		border-radius: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		h3{
 			font-size: 38px;
 			font-weight: 400;
@@ -203,6 +207,7 @@ body {
 	}
 	.web{
 		background-image: url(/dist/img/web-design.png);
+		//hover opacity 
 		background-position: center;
 		background-size: cover;
 		@include mixins.bp-large{
